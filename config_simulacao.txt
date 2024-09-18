@@ -1,0 +1,19 @@
+simulacao:
+  tempo_inicio: 1.5
+  num_aleatorios: 100000
+
+fila_1:
+  chegada: [1, 4]
+  atendimento: [3, 4]
+  servidores: 2
+  capacidade: 3
+  roteamento:
+    fila_2: 1.0
+
+fila_2:
+  chegada: [0, 0]
+  atendimento: [2, 3]
+  servidores: 1
+  capacidade: 5
+  roteamento:
+    saida: 1.0
